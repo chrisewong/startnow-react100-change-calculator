@@ -44,7 +44,7 @@ describe('change calculator', function() {
     })
   );
 
-  it('should include a button for the user to calculate change', () =>
+  xit('should include a button for the user to calculate change', () =>
     nightmare
     .goto(url)
     .evaluate(() => document.querySelector('button.btn'))
@@ -55,7 +55,7 @@ describe('change calculator', function() {
     })
   );
 
-  it('should calculate total change correctly', () =>
+  xit('should calculate total change correctly', () =>
     nightmare
     .goto(url)
     .type('input[name=amountDue]', 13.01)

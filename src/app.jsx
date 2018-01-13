@@ -129,7 +129,7 @@ class App extends Component {
           <input id="amountReceived" name="amountReceived" type="text" value={this.state.amtRecInput} onChange={this.updateamtRecInput} />
         
         <div className="panel-footer">
-          <button className="btn btn-primary btn-block" type='submit' value="Alert the text input">Calculate</button>
+          <button className="btn btn-primary btn-block" type='submit' value="Alert the text input" onClick={this.handleClick}>Calculate</button>
         </div>
         </div> 
       </form>
